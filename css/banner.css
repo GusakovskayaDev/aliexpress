@@ -1,0 +1,96 @@
+.div-banner{
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	height: 300px;
+
+	cursor: pointer;
+	position: relative;
+}
+
+.arrow{
+	position: absolute;
+	top: 45%;
+}
+
+.left{
+left: 10px;
+}
+
+.right{
+	right: 10px;
+}
+
+.div-banner:hover .arrow img{
+	opacity: 70%;
+}
+
+.arrow img{
+	opacity: 0%;
+	width: 14px;
+	background-color: gray;
+	padding: 14px 12px;
+	border-radius: 50px;
+	transition: opacity 0.15s;
+}
+
+.btn-circle{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+}
+
+.circle{
+	background-color: rgb(194, 194, 194);
+	border-radius: 30px;
+	border: none;
+	width: 12px;
+	height: 12px;
+	opacity: 70%;
+	cursor: pointer;
+}
+
+.active{
+	background-color: white;
+	opacity: 100%;
+}
+
+.yellow-back{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 20px;
+	width: 400px;
+}
+
+.img-banner{
+	flex: 1;
+	width: 1px;
+}
+
+.banner-title{
+	width: 350px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.banner-btn{
+	background-color: black;
+	color: white;
+	padding: 16px 28px;
+	border-radius: 30px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 10px;
+	width: 240px;
+
+	cursor: pointer;
+}
+
+.btn-less-than{
+	width: 12px;
+}
